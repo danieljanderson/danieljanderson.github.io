@@ -1,5 +1,5 @@
 .DS_Store
-LICENSE
-package-lock.json
-package.json
-README.md
+/LICENSE
+/package-lock.json
+/package.json
+/README.md
