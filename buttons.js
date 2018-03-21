@@ -7,7 +7,7 @@ $(document).ready(function(){
       else{
         alert('Please allow popups for this website')
       }
-      console.log(e)
+    
   })
   $("#github_click").click(function(e){
     var win = window.open('https://github.com/danieljanderson','blank')
