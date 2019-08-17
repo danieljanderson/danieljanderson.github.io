@@ -1,4 +1,4 @@
-body {
+bbody {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #868e96;
@@ -30,6 +30,11 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  color: #42a7c4;
+}
+
+h3 {
+  color: #3c5fb5;
 }
 
 .subheading {
@@ -40,11 +45,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #90D9EF;
+  color: #42a7c4;
 }
 
 .list-social-icons a:hover {
-  color: #90D9EF;
+  color: #90d9ef;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +61,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #90d9ef;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -96,7 +101,7 @@ h2 {
     flex-direction: column;
     width: 100%;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
+  #sideNav .navbar-co3llapse .navbar-nav .nav-item {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -105,7 +110,7 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #90d9ef;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -131,17 +136,31 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #516ace !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #516ace !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #42a7c4;
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
+a:active,
+a:focus,
+a:hover {
+  color: #90d9ef;
+}
+
+#programming_languages {
+  color: #42a7c4;
+}
+
+.devicon-visualstudio-plain {
+  color: #42a7c4;
+}
+
+.devicon-csharp-plain {
+  color: #42a7c4;
 }
